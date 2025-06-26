@@ -113,8 +113,13 @@ function createWordCloud() {
         textMesh.position.set(-0.5, -0.05, 0.06); // Adjust position to center text on cloud, slightly above surface
         cloud.add(textMesh);
         cloud.userData.word = word; // Store the word with the cloud
+    });
 
-        }
+    cloud.position.x = Math.random() * 10 - 5;
+    cloud.position.y = 5;
+    cloud.castShadow = true;
+    scene.add(cloud);
+    wordClouds.push(cloud);
 }
 
 // Game Loop
