@@ -1,0 +1,121 @@
+{
+  "master": {
+    "tasks": [
+      {
+        "id": "1",
+        "title": "Project Setup & Core Mechanics",
+        "description": "Initialize project structure, set up rendering engine, and create basic assets.",
+        "subtasks": [
+          {
+            "id": "1.1",
+            "title": "Initialize project structure",
+            "description": "Create HTML, CSS, and JS files."
+          },
+          {
+            "id": "1.2",
+            "title": "Set up rendering engine",
+            "description": "Choose and set up a rendering engine (e.g., HTML5 Canvas, Phaser)."
+          },
+          {
+            "id": "1.3",
+            "title": "Create assets",
+            "description": "Create assets for the sky, clouds, grass, and turret."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Start Screen",
+        "description": "Implement the start screen with nickname input and confirm button.",
+        "subtasks": [
+          {
+            "id": "2.1",
+            "title": "Design and implement start screen UI",
+            "description": "Create the visual elements of the start screen."
+          },
+          {
+            "id": "2.2",
+            "title": "Create nickname input and confirm button",
+            "description": "Implement the input field and button for the player to start the game."
+          },
+          {
+            "id": "2.3",
+            "title": "Implement scene transition",
+            "description": "Implement the logic to switch to the main game scene after the player clicks \"Confirm\"."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Main Game Scene",
+        "description": "Implement the core gameplay mechanics.",
+        "subtasks": [
+          {
+            "id": "3.1",
+            "title": "Implement game elements",
+            "description": "Implement the main game background, foreground, and turret."
+          },
+          {
+            "id": "3.2",
+            "title": "Implement word clouds",
+            "description": "Create word cloud entities and implement their falling logic."
+          },
+          {
+            "id": "3.3",
+            "title": "Implement turret mechanics",
+            "description": "Implement text input, firing mechanism, and collision detection."
+          },
+          {
+            "id": "3.4",
+            "title": "Implement scoring and game over",
+            "description": "Implement the scoring system and the game over condition."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Game Over & Leaderboard",
+        "description": "Implement the game over screen and leaderboard functionality.",
+        "subtasks": [
+          {
+            "id": "4.1",
+            "title": "Design and implement game over screen",
+            "description": "Create the UI for the game over screen, including score, rank, and restart button."
+          },
+          {
+            "id": "4.2",
+            "title": "Implement leaderboard",
+            "description": "Implement file I/O to read/write result.txt and logic to store the top 50 scores."
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Refinement",
+        "description": "Polish the game with sound, animations, and bug fixes.",
+        "subtasks": [
+          {
+            "id": "5.1",
+            "title": "Add sound effects",
+            "description": "Add sound effects for shooting, hitting a cloud, and game over."
+          },
+          {
+            "id": "5.2",
+            "title": "Polish animations and visual effects",
+            "description": "Improve the look and feel of the game with animations and visual effects."
+          },
+          {
+            "id": "5.3",
+            "title": "Testing and bug fixing",
+            "description": "Conduct thorough testing and fix any bugs found."
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "created": "2025-06-26T14:40:23.281Z",
+      "updated": "2025-06-26T14:40:23.281Z",
+      "description": "Tasks for master context"
+    }
+  }
+}

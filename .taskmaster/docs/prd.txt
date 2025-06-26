@@ -1,0 +1,43 @@
+
+# Product Requirements Document: Word Cloud Shooter Game
+
+## 1. Overview
+
+A simple, fast-paced typing game where players shoot down falling word clouds to score points. The game is designed to be a fun way to improve typing speed and accuracy.
+
+## 2. Target Audience
+
+Casual gamers of all ages, students, and anyone looking to improve their typing skills.
+
+## 3. Key Features
+
+### 3.1. Start Screen
+
+*   **Nickname Entry:** Players must enter a nickname to start.
+*   **Simple UI:** A clean interface with the game title, a nickname input field, and a confirm button.
+
+### 3.2. Core Gameplay
+
+*   **Falling Words:** Clouds with words written on them will continuously fall from the top of the screen.
+*   **Turret Control:** A turret at the bottom of the screen serves as the player's weapon.
+*   **Typing to Shoot:** Players type the words they see on the clouds and press Enter to fire a projectile from the turret.
+*   **Scoring:** Successfully hitting a word cloud with a projectile destroys the cloud and awards the player points.
+*   **Increasing Difficulty:** The rate at which word clouds fall will increase over time.
+
+### 3.3. Game Over & Leaderboard
+
+*   **Game Over Condition:** The game ends if a word cloud reaches the ground.
+*   **Results Screen:** After the game ends, a screen will display the player's final score and their rank.
+*   **Top 50 Leaderboard:** The game will save the top 50 scores (nickname and score) to a local file (`result.txt`).
+*   **Restart:** A button on the game over screen will allow the player to start a new game.
+
+## 4. Technical Requirements
+
+*   **Platform:** Web browser (HTML5, CSS, JavaScript).
+*   **Graphics:** Simple 2D graphics for the sky, clouds, grass, and turret.
+*   **Sound:** (Optional) Sound effects for shooting, explosions, and game over.
+*   **Data Storage:** Local file (`result.txt`) for the leaderboard.
+
+## 5. Monetization
+
+This is a free-to-play game. There are no monetization features.
